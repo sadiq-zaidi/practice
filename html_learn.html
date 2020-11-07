@@ -6,7 +6,8 @@
     <body>
         
         <!--Headings-->
-        <h1>Heading One</h1>
+
+        <h1 title="My Company">Heading One</h1>
         <h2>Heading Two</h2>
         <h3>Heading Three</h3>
         <h4>Heading Four</h4>
@@ -14,11 +15,123 @@
         <h6>Heading Six</h6>
         
     <!--Paragraph-->
+
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ad ut voluptatem nobis enim sequi veniam vero sunt molestiae recusandae?
+        <strong>Lorem ipsum dolor sit amet consectetur</strong> adipisicing elit. Dolores nostrum aspernatur ad ducimus vel <em>quibusdam illum expedita. Fugit quas eius, velit, accusantium</em> facilis quidem voluptatum dolores libero pariatur omnis vitae necessitatibus eum recusandae corrupti rem cupiditate iusto distinctio laudantium animi. Sit nesciunt dolore mollitia, enim autem veritatis non fugiat quia!
     </p>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia esse cumque sint in praesentium laudantium animi, ullam hic. Illo!
+        Lorem ipsum dolor sit amet <a href="https://www.google.com" target="_blank">consectetur adipisicing elit</a>. Assumenda quia esse cumque sint in praesentium laudantium animi, ullam hic. Illo!
     </p>
+
+    <!--Lists-->
+
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ul>
+
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+    </ol>
+
+    <!--Table-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>email</th>
+                <th>age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Susan</td>
+                <td>susan@gmail.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Poise</td>
+                <td>poise@gmail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Waldo</td>
+                <td>waldo@gmail.com</td>
+                <td>37</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+    
+    <!--Form-->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="FirstName">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="LastName">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="Email">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Message</label>
+            <textarea name="Message"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Age</label>
+            <input type="number" name="Age"
+            value="30">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="Birthday"
+            value="30">
+        </div>
+
+    </form>
+
+    <div style="margin-top: 500px;"></div>
+
     </body>
+
 </html>
